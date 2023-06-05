@@ -1,0 +1,152 @@
+body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(82, 78, 78), rgba(255, 60, 0, 0.521));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    margin-right: 5px;
+}
+
+
+
+#box {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.box_nav {
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.text_align {
+    font-size: 24px;
+    margin-left: 8px;
+    font-weight: bold;
+
+
+}
+
+.text_nav {
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    width: 90px;
+    height: 90px;
+    padding: 13px;
+    background-color: rgba(255, 60, 0, 0.521);
+    border: 3px solid black;
+
+}
+
+.text_title {
+
+    color: black;
+
+}
+
+.text_nav:hover {
+    background-color: red;
+
+}
+
+.container_img {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-price {}
+
+}
+
+.iphone14 {
+    margin-top: 90px;
+    width: 100%;
+
+
+
+}
+
+.iphone_text {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 90px;
+    margin-right: 10px;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container_button {
+    display: flex;
+    margin-right: 1px;
+
+
+}
+
+.button_deco {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+button {
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgba(255, 60, 0, 0.521);
+
+}
+
+button:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: red;
+
+}
+
+.bar-footer {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
